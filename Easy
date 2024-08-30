@@ -4,7 +4,7 @@ sol:-    SELECT first_name,last_name,gender FROM patients
 2. Show the first name and last name of patients who do not have allergies. (null)
 sol:-    SELECT first_name,last_name FROM patients
           where allergies is null;
-3.  Show first name of patients that start with the letter 'C'
+3.  Show first name of patients that start with the letter 'C'.
 sol:-     SELECT first_name FROM patients
           where first_name like 'C%';
 4. Show first name and last name of patients that weight within the range of 100 to 120 (inclusive).
